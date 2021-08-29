@@ -6,7 +6,7 @@ import {
   Switch,
   Route
 } from "react-router-dom";
-import {HomePage} from './pages';
+import {HomePage, DetailPokemon, MyPokemon} from './pages';
 import {TopBar} from './components';
 
 function App() {
@@ -18,6 +18,12 @@ function App() {
           <Switch>
             <Route exact path="/">
               <HomePage />
+            </Route>
+            <Route path="/MyPokemon">
+              <MyPokemon />
+            </Route>
+            <Route path="/detail/:name">
+              <DetailPokemon />
             </Route>
           </Switch>
         </div>

@@ -1,1 +1,9 @@
 export {default as TopBar} from './TopBar';
+export {default as CardPokemon} from './CardPokemon';
+export {default as SkillPokemon} from './SkillPokemon';
+export {default as MovePokemon} from './MovePokemon';
+export {default as AlertComponent} from './AlertComponent';
+export {default as ModalLoading} from './ModalLoading';
+export {default as ModalNickname} from './ModalNickname';
+export {default as ModalDelete} from './ModalDelete';
+export {default as NoDataComponent} from './NoDataComponent';
